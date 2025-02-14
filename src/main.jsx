@@ -5,7 +5,9 @@ import { Button } from './components/ui/button'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <h1 className='bg-neutral-950 text-amber-50'>Hello World</h1>
-    <Button size="lg">Click Me</Button>
+    <div>
+      <h1 className='bg-background text-foreground'>Hello World</h1>
+      <Button size="lg">Click Me</Button>
+    </div>
   </StrictMode>
 )
