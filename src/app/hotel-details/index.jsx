@@ -12,7 +12,7 @@ const HotelDetails = () => {
   const hotelInfo = HOTEL_INFO;
 
   return (
-    <div className='container'>
+    <div className='container mt-6 mb-12'>
       <PropertyViewCarousel images={hotelData.hotel.photos}/>
         <div className='flex gap-6 mt-6'>
           <div className='flex-1 space-y-8'>
